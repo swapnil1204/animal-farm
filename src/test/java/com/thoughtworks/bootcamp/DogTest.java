@@ -9,10 +9,4 @@ public class DogTest {
         Dog dog = new Dog();
         Assertions.assertEquals("Bark", dog.makeNoise());
     }
-
-    @Test
-    void givenHorseMakingNoise_WhenMake_ThenItShouldReturnNeigh() {
-        Horse horse = new Horse();
-        Assertions.assertEquals("Neigh", horse.makeNoise());
-    }
 }
