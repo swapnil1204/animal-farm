@@ -11,7 +11,7 @@ public class AnimalFarmTest {
     }
 
     @Test
-    void givenDuckMakingNoise_WhenMake_ThenItShouldReturnZero() {
+    void givenDuckMakingNoise_WhenMake_ThenItShouldReturnQuack() {
         Duck duck = new Duck();
         Assertions.assertEquals("Quack", duck.makeNoise());
     }
