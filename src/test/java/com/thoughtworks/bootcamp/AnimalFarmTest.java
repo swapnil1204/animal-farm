@@ -5,13 +5,14 @@ import org.junit.jupiter.api.Test;
 
 public class AnimalFarmTest {
     @Test
-    void givenDogMakingNoise_WhenMake_ThenItShouldReturnBark(){
+    void givenDogMakingNoise_WhenMake_ThenItShouldReturnBark() {
         Dog dog = new Dog();
-        Assertions.assertEquals("Bark",dog.makeNoise());
+        Assertions.assertEquals("Bark", dog.makeNoise());
     }
+
     @Test
-    void givenDuckMakingNoise_WhenMake_ThenItShouldReturnZero(){
+    void givenDuckMakingNoise_WhenMake_ThenItShouldReturnZero() {
         Duck duck = new Duck();
-        Assertions.assertEquals("Quack",duck.makeNoise());
+        Assertions.assertEquals("Quack", duck.makeNoise());
     }
 }
