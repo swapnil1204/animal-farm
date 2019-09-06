@@ -11,12 +11,6 @@ public class DogTest {
     }
 
     @Test
-    void givenDuckMakingNoise_WhenMake_ThenItShouldReturnQuack() {
-        Duck duck = new Duck();
-        Assertions.assertEquals("Quack", duck.makeNoise());
-    }
-
-    @Test
     void givenHorseMakingNoise_WhenMake_ThenItShouldReturnNeigh() {
         Horse horse = new Horse();
         Assertions.assertEquals("Neigh", horse.makeNoise());
