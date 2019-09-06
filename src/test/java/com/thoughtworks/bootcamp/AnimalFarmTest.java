@@ -9,4 +9,9 @@ public class AnimalFarmTest {
         Dog dog = new Dog();
         Assertions.assertEquals("Bark",dog.makeNoise());
     }
+    @Test
+    void givenDuckMakingNoise_WhenMake_ThenItShouldReturnZero(){
+        Duck duck = new Duck();
+        Assertions.assertEquals("Quack",duck.makeNoise());
+    }
 }
